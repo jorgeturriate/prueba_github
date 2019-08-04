@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Formulario</title>
+	</head>
+
+	<body>
+		<h1>Pagina</h1>
+		<!--Menu de navegacion-->
+		<ul>
+			<li> <a href="index.html">Inicio</a></li>
+			<li> <a href="contenidos.html">Contenidos</a></li>
+			<li> <a href="formulario.html">Contacto </a></li>
+		</ul>
+		<hr/>
+		<!--Contenido de Formulario-->
+		<h2> Contacto</h2>
+		<form>
+			<p>
+				<label for="nombre" > Nombre </label> <br/>
+				<input type="text" name="nombre" placeholder="Escriba su nombre..." /> <br/>
+			</p>
+			<p>
+				<label for="biografia"> Biografia </label><br/>
+				<textarea name="biografia" ></textarea>
+			</p>
+			<p>
+				<label for="edad">Edad</label> <br/>
+				<select name="edad">
+					<option value="menor">Menor de edad</option>
+					<option value="mayor">Mayor de edad</option>
+					<option value="viejo">Anciano</option>
+				</select>
+			</p>
+			<input type="submit" value="Enviar formulario" />
+		</form>
+	</body>
+
+</html>
